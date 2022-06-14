@@ -1,0 +1,33 @@
+{
+  "name": "netlify.bynatives.app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nativesintech/netlify.bynatives.app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nativesintech/netlify.bynatives.app/issues"
+  },
+  "homepage": "https://github.com/nativesintech/netlify.bynatives.app#readme",
+  "dependencies": {
+    "next": "^12.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-react": "^7.17.12",
+    "frontmatter-markdown-loader": "^3.7.0"
+  }
+}
