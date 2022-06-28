@@ -36,4 +36,4 @@ collections:
         - { label: "Description", name: "description", widget: "markdown"}
         - { label: "Website URL", name: "url", widget: "string" }
         - { label: "Address", name: "address", widget: "text" }
-        - { label: "Location", name: "location", widget: "map", type: "location" }
+        # - { label: "Location", name: "location", widget: "map", type: "location" }
