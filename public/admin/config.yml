@@ -20,3 +20,13 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
+    - label: "Business"
+      name: "business"
+      file: "content/business.md"
+      fields:
+        - { label: "Name", name: "name", widget: "string"}
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Description", name: "description", widget: "markdown"}
+        - { label: "Website URL", name: "url", widget: "string" }
+        - { label: "Address", name: "address", widget: "text" }
+        # - { label: "Location", name: "location", widget: "map", type: "location" }
