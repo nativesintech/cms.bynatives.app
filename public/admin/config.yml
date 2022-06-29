@@ -50,12 +50,12 @@ collections:
         file: "content/_data/languages.json"
         extension: "json"
         fields:
-          - name: "languages"
-            label: "Languages"
-            widget: "list"
-            identifier_field: "slug"
-            fields:
-              - { label: "Name", name: "name", widget: "string"}
-              - { label: "Description", name: "description", widget: "string"}
-              - { label: "Slug", name: "slug", widget: "string" }
-              - { label: "Color", name: "color", widget: "color" }
+        - name: "languages"
+          label: "Languages"
+          widget: "list"
+          identifier_field: "slug"
+          fields:
+          - { label: "Name", name: "name", widget: "string"}
+          - { label: "Description", name: "description", widget: "string"}
+          - { label: "Slug", name: "slug", widget: "string" }
+          - { label: "Color", name: "color", widget: "color" }

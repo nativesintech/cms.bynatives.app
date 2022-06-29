@@ -8,14 +8,14 @@ const url_languages = 'https://native-land.ca/wp-content/themes/Native-Land-Them
 const pull_languages = async () => {
   const { data } = await axios.get(url_languages)
 
-  const out = data.features.map(({ properties }) => ({
+  const languages = data.features.map(({ properties }) => ({
     name: properties.Name,
     slug: properties.Slug,
     description: properties.description,
     color: properties.color
   }))
 
-  console.log(out)
+  const out = { languages }
 
   fs.writeFileSync('./content/languages.json', JSON.stringify(out))
 }
