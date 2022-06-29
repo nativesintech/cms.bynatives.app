@@ -6,5 +6,3 @@ description: Test Description
 url: https://nativesintech.org
 address: Oklahoma
 ---
-
-{name}

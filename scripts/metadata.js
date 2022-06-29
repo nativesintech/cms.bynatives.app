@@ -4,7 +4,6 @@ const YAML = require('json-to-pretty-yaml')
 
 const url_languages = 'https://native-land.ca/wp-content/themes/Native-Land-Theme/files/indigenousLanguages.json'
 
-
 const pull_languages = async () => {
   const { data } = await axios.get(url_languages)
 
