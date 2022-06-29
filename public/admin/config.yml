@@ -57,8 +57,8 @@ collections:
   - name: "metadata"
     label: "Metadata"
     files:
-      - name: "Languages"
-        label: "languages"
+      - name: "languages"
+        label: "Languages"
         description: "Indigenous Languages"
         file: "content/_data/languages.json"
         extension: "json"
