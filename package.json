@@ -21,9 +21,12 @@
   },
   "homepage": "https://github.com/nativesintech/netlify.bynatives.app#readme",
   "dependencies": {
+    "gray-matter": "^4.0.3",
     "next": "^12.1.6",
+    "raw-loader": "^4.0.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.18.5",
