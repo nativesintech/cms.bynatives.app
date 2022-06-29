@@ -17,7 +17,7 @@ const pull_languages = async () => {
 
   const out = { languages }
 
-  fs.writeFileSync('./content/languages.json', JSON.stringify(out))
+  fs.writeFileSync('./content/_data/languages.json', JSON.stringify(out))
 }
 
 pull_languages()
