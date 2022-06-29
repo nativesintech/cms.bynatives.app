@@ -62,7 +62,7 @@ collections:
             collection: "metadata"
             file: "tags"
             search_fields: ["tags.*.name"]
-            display_fields: ["tags.*name"]
+            display_fields: ["tags.*.name"]
             value_field: "tags.*.name"
       # - { label: "Location", name: "location", widget: "map", type: "location" }
   - name: "metadata"
