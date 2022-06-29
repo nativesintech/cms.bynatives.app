@@ -39,3 +39,12 @@ collections:
       - { label: "Website URL", name: "url", widget: "string" }
       - { label: "Address", name: "address", widget: "text" }
       # - { label: "Location", name: "location", widget: "map", type: "location" }
+  - name: "languages"
+    label: "languages"
+    file: "content/languages.json"
+    identifier_field: "slug"
+    fields:
+      - { label: "Name", name: "name", widget: "string"}
+      - { label: "Description", name: "description", widget: "string"}
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Color", name: "color", widget: "color" }
