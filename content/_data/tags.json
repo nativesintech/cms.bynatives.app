@@ -1,0 +1,12 @@
+{
+  "tags": [
+    {
+      "name": "nonprofit",
+      "description": "A not-for-profit organization"
+    },
+    {
+      "name": "restaurant",
+      "description": "Any type of business that serves food, including a food truck."
+    }
+  ]
+}
