@@ -43,9 +43,9 @@ collections:
       # - { label: "Location", name: "location", widget: "map", type: "location" }
   - name: "Languages"
     label: "languages"
-    file: "content/_data/languages.json"
     description: "Indigenous Languages"
-    format: "json"
+    file: "content/_data/languages.json"
+    extension: "json"
     fields:
       - { label: "Name", name: "name", widget: "string"}
       - { label: "Description", name: "description", widget: "string"}
