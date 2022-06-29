@@ -1,6 +1,8 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  branch: main
+  squash_merges: true
+publish_mode: editorial_workflow
 media_folder: public/img
 public_folder: img
 collections:
@@ -39,12 +41,11 @@ collections:
       - { label: "Website URL", name: "url", widget: "string" }
       - { label: "Address", name: "address", widget: "text" }
       # - { label: "Location", name: "location", widget: "map", type: "location" }
-  - name: "languages"
+  - name: "Languages"
     label: "languages"
-    file: "content/languages.json"
-    description: "Indigenous Languages!"
-    extension: "json"
-    identifier_field: "slug"
+    file: "content/_data/languages.json"
+    description: "Indigenous Languages"
+    format: "json"
     fields:
       - { label: "Name", name: "name", widget: "string"}
       - { label: "Description", name: "description", widget: "string"}
