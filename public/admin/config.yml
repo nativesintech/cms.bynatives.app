@@ -48,9 +48,9 @@ collections:
             name: "language"
             collection: "metadata"
             file: "languages"
-            search_fields: ["languages.*.slug", "languages.*.name"]
-            display_fields: ["languages.*.name"]
-            value_field: "languages.*.slug"
+            search_fields: ["language.*.slug", "language.*.name"]
+            display_fields: ["language.*.name"]
+            value_field: "language.*.slug"
 
       # - { label: "Location", name: "location", widget: "map", type: "location" }
   - name: "metadata"
@@ -62,8 +62,8 @@ collections:
         file: "content/_data/languages.json"
         extension: "json"
         fields:
-        - name: "languages"
-          label: "Languages"
+        - name: "language"
+          label: "Language"
           widget: "list"
           fields:
           - { label: "Name", name: "name", widget: "string"}
