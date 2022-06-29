@@ -55,15 +55,8 @@ collections:
       - label: "Tags"
         name: "tags"
         widget: "list"
-        fields:
-          - label: "Tags"
-            name: "tags"
-            widget: "relation"
-            collection: "metadata"
-            file: "tags"
-            search_fields: ["tags.*.name"]
-            display_fields: ["tags.*.name"]
-            value_field: "tags.*.name"
+        allow_add: true
+        default: ["nonprofit", "restaurant"]
       # - { label: "Location", name: "location", widget: "map", type: "location" }
   - name: "metadata"
     label: "Metadata"
