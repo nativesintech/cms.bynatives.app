@@ -40,6 +40,18 @@ collections:
       - { label: "Description", name: "description", widget: "markdown"}
       - { label: "Website URL", name: "url", widget: "string" }
       - { label: "Address", name: "address", widget: "text" }
+      - label: "Languages"
+        name: "languages"
+        widget: "list"
+        fields:
+          - widget: "relation"
+            name: "language"
+            collection: "metadata"
+            file: "languages"
+            search_fields: ["languages.*.slug", "languages.*.name"]
+            display_fields: ["languages.*.name"]
+            value_field: "languages.*.slug"
+
       # - { label: "Location", name: "location", widget: "map", type: "location" }
   - name: "metadata"
     label: "Metadata"
@@ -53,7 +65,6 @@ collections:
         - name: "languages"
           label: "Languages"
           widget: "list"
-          identifier_field: "slug"
           fields:
           - { label: "Name", name: "name", widget: "string"}
           - { label: "Description", name: "description", widget: "string"}
