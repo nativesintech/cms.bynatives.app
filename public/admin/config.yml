@@ -41,10 +41,11 @@ collections:
       - { label: "Website URL", name: "url", widget: "string" }
       - { label: "Address", name: "address", widget: "text" }
       - label: "Languages"
-        name: "city"
+        name: "languages"
         widget: "list"
         fields:
           - widget: "relation"
+            name: "language"
             collection: "metadata"
             file: "languages"
             search_fields: ["languages.*.slug", "languages.*.name"]
