@@ -6,6 +6,8 @@ description: Cultivate a tech ecosystem of Native technologists crafting free
   and open source technology for Native communities.
 url: https://nativesintech.org
 address: Tulsa, OK
+tags:
+  - nonprofit
 ---
 
 {name}
