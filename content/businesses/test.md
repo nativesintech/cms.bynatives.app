@@ -7,4 +7,7 @@ url: https://google.com
 address: |-
   House
   Tulsa, OK
+tags:
+  - tags: nonprofit
+  - tags: restaurant
 ---
