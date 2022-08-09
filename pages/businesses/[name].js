@@ -14,52 +14,58 @@ export default function Business({ name, children, pageTitle, ...props }) {
       <Head>
         <title>{name}</title>
       </Head>
-      <Card>
-        <div className="overflow-hidden rounded-t border-b border-gray-600 flex-shrink flex flex-row lg:border-0 lg:rounded-none lg:border-r lg:w-1/2 h-80">
-          <img 
-            className="w-full h-full max-w-full object-cover self-center"
-            src={imgSrc}
-          />
-        </div>
-        <div className="flex flex-col flex-1 w-full flex-grow p-6">
-          <header>
-            <div className="text-sm w-full flex flex-row justify-between mb-1 text-gray-800">
-              <div className="flex justify-between w-100 flex-grow">
-                  <div className="affiliation">Osage</div>
-              </div>
-              <div className="location">
-                <a href="https://www.google.com/maps/place/36.1555805,-95.992789">
-                  {props.address}
-                </a>
-              </div>
-            </div>
-            <a
-              href={`/businesses/${props.slug}`}
-              className="text-xl font-bold mb-1 pb-1 border-b block router-link-exact-active router-link-active"
-            >
-              {name}
-            </a>
-          </header>
-          <div className="text-sm flex-grow mb-6 lg:mb-0">
-            <div>{props.description}</div>
+      <div className="py-4 flex flex-col">
+        <Card>
+          <div className="overflow-hidden rounded-t border-b border-gray-600 flex-shrink flex flex-row lg:border-0 lg:rounded-none lg:border-r lg:w-1/2 h-80">
+            <img 
+              className="w-full h-full max-w-full object-cover self-center"
+              src={imgSrc}
+            />
           </div>
-          <div className="flex flex-col lg:flex-row lg:items-end">
-            <div className="text-sm flex flex-row align-baseline flex-grow mb-6 lg:mb-0">
-              { props?.tags?.map( tag => (
-                <span class={`box-border whitespace-no-wrap text-gray-500 pr-2 flex-end tag-${tag.name}`}>featured</span>
-              ))}
-            </div>
-            <div className="text-sm flex flex-row align-baseline flex-end">
+          <div className="flex flex-col flex-1 w-full flex-grow p-6">
+            <header>
+              <div className="text-sm w-full flex flex-row justify-between mb-1 text-gray-800">
+                <div className="flex justify-between w-100 flex-grow">
+                    <div className="affiliation">Osage</div>
+                </div>
+                <div className="location">
+                  <a href="https://www.google.com/maps/place/36.1555805,-95.992789">
+                    {props.address}
+                  </a>
+                </div>
+              </div>
               <a
-                href={props.url}
-                title={props.url}
-                target="_blank"
-                className="button-knockout px-6 py-2 rounded inline-block"
-              >Website</a>
+                href={`/businesses/${props.slug}`}
+                className="text-xl font-bold mb-1 pb-1 border-b block router-link-exact-active router-link-active"
+              >
+                {name}
+              </a>
+            </header>
+            <div className="text-sm flex-grow mb-6 lg:mb-0">
+              <div>{props.description}</div>
+            </div>
+            <div className="flex flex-col lg:flex-row lg:items-end">
+              <div className="text-sm flex flex-row align-baseline flex-grow mb-6 lg:mb-0">
+                { props?.tags?.map( tag => (
+                  <span
+                    className={`box-border whitespace-no-wrap text-gray-500 pr-2 flex-end tag-${tag.name}`}
+                  >
+                      {tag.name}
+                  </span>
+                ))}
+              </div>
+              <div className="text-sm flex flex-row align-baseline flex-end">
+                <a
+                  href={props.url}
+                  title={props.url}
+                  target="_blank"
+                  className="button-knockout px-6 py-2 rounded inline-block"
+                >Website</a>
+              </div>
             </div>
           </div>
-        </div>
-      </Card>
+        </Card>
+      </div>
     </>
   )
 }
