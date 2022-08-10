@@ -8,6 +8,26 @@ body {
   font-family: Inter;
 }
 
+h1 {
+  @apply text-2xl font-bold;
+}
+
+h2 {
+  @apply text-xl font-bold;
+}
+
+h3 {
+  @apply font-bold space-y-4;
+}
+
+p {
+  @apply text-base text-slate-500 leading-normal mb-6 space-y-4;
+}
+
+.page a {
+  text-decoration: underline;
+}
+
 .button-knockout {
   border-width:1px;
   padding-left:1rem;

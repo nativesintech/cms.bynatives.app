@@ -1,10 +1,16 @@
 import '../styles/globals.css'
 import '../styles/reset.css'
 
+import Head from "next/head"
+import Script from "next/script"
+
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps }) {
   return (
     <div className="max-w-screen-sm lg:max-w-screen-lg mx-auto px-4 antialiased">
+      <Head>
+        <Script src="https://identity.netlify.com/v1/netlify-identity-widget.js"/>
+      </Head>
       <header>
         <nav className="flex py-6 bg-white items-center justify-between">
           <div className="flex items-center">
@@ -14,8 +20,8 @@ export default function MyApp({ Component, pageProps }) {
             </h1>
           </div>
           <div className="space-x-2">
-            <a href="/about" className=""> About </a>
-            <a href="/admin" className=""> Login </a>
+            <a href="/about" className="">About</a>
+            <a href="/admin" className="">Login</a>
           </div>
         </nav>
       </header>
