@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   repo: nativesintech/cms.bynatives.app
-  branch: main
+  branch: drafts
   squash_merges: true
 
 local_backend: true
