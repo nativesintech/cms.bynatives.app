@@ -1,7 +1,9 @@
 backend:
   name: git-gateway
+  repo: nativesintech/cms.bynatives.app
   branch: main
   squash_merges: true
+
 local_backend: true
 publish_mode: editorial_workflow
 media_folder: public/img
