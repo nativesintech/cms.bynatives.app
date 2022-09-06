@@ -1,5 +1,4 @@
 import { Card } from './Card'
-import Image from 'next/image'
 
 export default function Business({ name, address, slug, description, links, tags, thumbnail }) {
   // const imgSrc = new URL(thumbnail, 'http://localhost:3000')
