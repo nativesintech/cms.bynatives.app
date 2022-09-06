@@ -21,15 +21,22 @@
   },
   "homepage": "https://github.com/nativesintech/netlify.bynatives.app#readme",
   "dependencies": {
+    "gray-matter": "^4.0.3",
     "next": "^12.1.6",
+    "raw-loader": "^4.0.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.3",
+    "sass": "^1.54.3"
   },
   "devDependencies": {
     "@babel/core": "^7.18.5",
     "@babel/preset-react": "^7.17.12",
+    "autoprefixer": "^10.4.8",
     "axios": "^0.27.2",
     "frontmatter-markdown-loader": "^3.7.0",
-    "json-to-pretty-yaml": "^1.2.2"
+    "json-to-pretty-yaml": "^1.2.2",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
   }
 }
