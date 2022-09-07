@@ -24,7 +24,7 @@ export default function Home({ businesses }) {
   console.log(businesses)
   return (
     <article>
-      <div class="font-bold text-lg whitespace-normal inline-block w-full h-5">
+      <div className="font-bold text-lg whitespace-normal inline-block w-full h-5">
         <span>{title}</span>
       </div>
       <div className="py-4 flex flex-col relative">
