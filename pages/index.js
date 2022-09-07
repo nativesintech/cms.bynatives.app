@@ -21,7 +21,6 @@ export async function getStaticProps({ ...ctx }) {
 
 export default function Home({ businesses }) {
   let { title } = attributes
-  console.log(businesses)
   return (
     <article>
       <div className="font-bold text-lg whitespace-normal inline-block w-full h-5">
