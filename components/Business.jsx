@@ -34,15 +34,17 @@ export default function Business({ name, address, slug, description, links, tags
       </div>
       <div className="flex flex-col lg:flex-row lg:items-end">
         <div className="text-sm flex flex-row align-baseline flex-grow mb-6 lg:mb-0">
-          { tags?.map( tag => (
-            <span
+            {tags?.map((tag, i) => (
+              <span
+                key={i}
               className={`box-border whitespace-no-wrap text-gray-500 pr-2 flex-end tag-${tag.name}`}
             >{tag}</span>
           ))}
         </div>
         <div className="text-sm flex flex-row align-baseline flex-end gap-3">
-          {links?.map(link => (
-            <a
+            {links?.map((link, i) => (
+              <a
+                key={i}
               href={link.url}
               title={link.url}
               target="_blank"

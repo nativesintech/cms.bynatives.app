@@ -28,7 +28,9 @@ export default function Home({ businesses }) {
         <span>{title}</span>
       </div>
       <div className="py-4 flex flex-col relative">
-        { businesses?.map( b => (<Business {...b} />)) }
+        {businesses?.map((b, i) => (
+          <Business key={i} {...b} />
+        ))}
       </div>
     </article>
   )
