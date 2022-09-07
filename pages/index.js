@@ -1,12 +1,16 @@
-import { attributes, react as HomeContent } from '../content/pages/home.md'
-import Business from '../components/Business'
+import { attributes } from "../content/pages/home.md"
+import Business from "../components/Business"
 
 export async function getStaticProps({ ...ctx }) {
   // const { attributes } = await import(`../content/businesses/${slug}.md`)
-  const markdownFiles = require.context('../content/businesses/', false, /\.md$/)
+  const markdownFiles = require.context(
+    "../content/businesses/",
+    false,
+    /\.md$/
+  )
   const businesses = []
 
-  for ( let path of markdownFiles.keys() ) {
+  for (let path of markdownFiles.keys()) {
     const file = path.substring(2)
     const { attributes } = await import(`../content/businesses/${file}`)
     attributes.slug = file.slice(0, -3)
@@ -14,10 +18,9 @@ export async function getStaticProps({ ...ctx }) {
   }
 
   return {
-    props: { businesses }
+    props: { businesses },
   }
 }
-
 
 export default function Home({ businesses }) {
   let { title } = attributes
