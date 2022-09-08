@@ -1,40 +1,44 @@
-<div style="display: grid; place-items: center; padding: 20px; gap: 20px;">
+<div align="center">
   <img
-    width="200px"
-    height="200px"
+    width="350px"
+    height="350px"
     title="Natives Owned Businesses"
     alt="Native Owned Businesses Logo"
     src="./public/logo_black_white.svg" />
+</div>
 
-  <img src="https://img.shields.io/github/license/chroline/well_app?style=for-the-badge" />
+<!-- <div align="center">
+  <p>
+    <img src="https://img.shields.io/github/license/chroline/well_app?style=for-the-badge" />
+  </p>
+</div>
+-->
+
+---
+
+<div align="center">
+  
+  ### Quick Links
+  <a
+    href="https://bynatives-cms.netlify.app/"
+    rel="noreferrer noopener">
+      <img src="https://img.shields.io/badge/WEBSITE-gray?style=for-the-badge" />
+  </a>
+  
 </div>
 
 ---
 
-<div style="padding: 20px;">
-  <div style="text-align: center; padding: 12px; font-size: 16px;">Quick Links</div>
-  <div style="display: grid; place-items: center;">
-    <div style="display: grid; grid-auto-flow: column; gap: 10px; ">
-      <a
-        href="https://bynatives-cms.netlify.app/"
-        rel="noreferrer noopener">
-          <img src="https://img.shields.io/badge/WEBSITE-gray?style=for-the-badge" />
-      </a>
-    </div>
-  </div>
+<div align="center">
+  
+**[Purpose](https://github.com/nativesintech/cms.bynatives.app#-purpose) · 
+  [Tech Stack](https://github.com/nativesintech/cms.bynatives.app#-tech-stack)**
+  
 </div>
-
----
-
-<div style="text-align: center; padding: 20px;">
-<a href="#purpose">Purpose</a> · <a href="#tech-stack">Tech Stack</a>
-</div>
-
-# Native Owned Businesses
 
 ## 🌎 Purpose
 
-The purpose of this project is to build an extensive directory of Native/Indigenous-owned businesses that anyone can contribute to while also providing a first-class search experience that is Native-centric. Users will be able to search based on territory, language, and Nation.
+The purpose of Native Owned Businesses is to build an extensive directory of Native/Indigenous-owned businesses that anyone can contribute to while also providing a first-class search experience that is Native-centric. Users will be able to search based on territory, language, and Nation.
 
 ## 💻 Tech Stack
 
