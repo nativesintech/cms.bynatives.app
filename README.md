@@ -1,12 +1,12 @@
-# Native Owned Businesses
-
-<div style="display: grid; place-items: center; padding: 20px;">
+<div style="display: grid; place-items: center; padding: 20px; gap: 20px;">
   <img
     width="200px"
     height="200px"
     title="Natives Owned Businesses"
     alt="Native Owned Businesses Logo"
     src="./public/logo_black_white.svg" />
+
+  <img src="https://img.shields.io/github/license/chroline/well_app?style=for-the-badge" />
 </div>
 
 ---
@@ -20,11 +20,6 @@
         rel="noreferrer noopener">
           <img src="https://img.shields.io/badge/WEBSITE-gray?style=for-the-badge" />
       </a>
-      <a
-        href="https://nativesintech.org/"
-        rel="noreferrer noopener">
-          <img src="https://img.shields.io/badge/NATIVES IN TECH-lightgrey?style=for-the-badge" />
-      </a>
     </div>
   </div>
 </div>
@@ -34,6 +29,8 @@
 <div style="text-align: center; padding: 20px;">
 <a href="#purpose">Purpose</a> · <a href="#tech-stack">Tech Stack</a>
 </div>
+
+# Native Owned Businesses
 
 ## 🌎 Purpose
 
