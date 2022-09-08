@@ -21,8 +21,7 @@
   ### Quick Links
   <a
     href="https://bynatives-cms.netlify.app/"
-    rel="noreferrer noopener"
-    target="_blank">
+    rel="noreferrer noopener">
       <img src="https://img.shields.io/badge/WEBSITE-gray?style=for-the-badge" />
   </a>
   
