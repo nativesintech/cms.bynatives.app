@@ -29,6 +29,11 @@
     rel="noreferrer noopener">
       <img src="https://img.shields.io/badge/ADD BUSINESS-gray?style=for-the-badge" />
   </a>
+  <a
+    href="https://bynatives-cms.netlify.app/about"
+    rel="noreferrer noopener">
+      <img src="https://img.shields.io/badge/FAQs-gray?style=for-the-badge" />
+  </a>
 
 </div>
 
