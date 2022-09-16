@@ -42,7 +42,8 @@
 <div align="center">
 
 **[Purpose](https://github.com/nativesintech/cms.bynatives.app#-purpose) ·
-  [Tech Stack](https://github.com/nativesintech/cms.bynatives.app#-tech-stack)**
+  [Tech Stack](https://github.com/nativesintech/cms.bynatives.app#-tech-stack) ·
+  [Contributing](https://github.com/nativesintech/cms.bynatives.app#-contributing)**
 
 </div>
 
@@ -54,6 +55,6 @@ The purpose of Native Owned Businesses is to build an extensive directory of Nat
 
 The app is built upon [Netlify CMS](https://www.netlifycms.org/) to make infrastructure and other technical decisions as simple as possible.
 
-## Contributing
+## ❤️ Contributing
 
 We are seeking technical and non-technical contributions. If you are interested in contributing then check out our [CONTRIBUTING guide](./CONTRIBUTING.md).
