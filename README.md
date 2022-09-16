@@ -17,23 +17,33 @@
 ---
 
 <div align="center">
-  
+
   ### Quick Links
   <a
     href="https://bynatives-cms.netlify.app/"
     rel="noreferrer noopener">
       <img src="https://img.shields.io/badge/WEBSITE-gray?style=for-the-badge" />
   </a>
-  
+  <a
+    href="https://bynatives-cms.netlify.app/admin"
+    rel="noreferrer noopener">
+      <img src="https://img.shields.io/badge/ADD BUSINESS-gray?style=for-the-badge" />
+  </a>
+  <a
+    href="https://bynatives-cms.netlify.app/about"
+    rel="noreferrer noopener">
+      <img src="https://img.shields.io/badge/FAQs-gray?style=for-the-badge" />
+  </a>
+
 </div>
 
 ---
 
 <div align="center">
-  
-**[Purpose](https://github.com/nativesintech/cms.bynatives.app#-purpose) · 
+
+**[Purpose](https://github.com/nativesintech/cms.bynatives.app#-purpose) ·
   [Tech Stack](https://github.com/nativesintech/cms.bynatives.app#-tech-stack)**
-  
+
 </div>
 
 ## 🌎 Purpose
@@ -44,3 +54,6 @@ The purpose of Native Owned Businesses is to build an extensive directory of Nat
 
 The app is built upon [Netlify CMS](https://www.netlifycms.org/) to make infrastructure and other technical decisions as simple as possible.
 
+## Contributing
+
+We are seeking technical and non-technical contributions. If you are interested in contributing then check out our [CONTRIBUTING guide](./CONTRIBUTING.md).
