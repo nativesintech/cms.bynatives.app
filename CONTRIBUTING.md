@@ -14,10 +14,10 @@ We are actively seeking volunteers who are interested in building up our directo
 1. Click on the "New Business" button on the top of the page, this will navigate you to a new page
 1. Add the business details in the form
 1. Please make your best judgement when adding a business. If you are wondering what a Native-owned business is then please refer to our about page FAQs: https://bynatives-cms.netlify.app/about
+1. When you add a business it will not show instantly on the website. The last step is for either [@nicksahler](https://github.com/nicksahler) or [@arecvlohe](https://github.com/arecvlohe) to merge the changes from the `drafts` branch to the `main` branch which includes the businesses(s) you added
 
 ## Technical
 
 ### Code Contributions
 
-The leads on this project are @nicksahler and @arecvlohe. If you are interested in making a code contribution then open an issue in this project requesting how you can help.
-
+The leads on this project are [@nicksahler](https://github.com/nicksahler) and [@arecvlohe](https://github.com/arecvlohe). If you are interested in making a code contribution then open an issue in this project requesting how you can help.
