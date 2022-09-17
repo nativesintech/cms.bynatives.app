@@ -26,10 +26,10 @@ export default function Home({ businesses }) {
   let { title } = attributes
   return (
     <article>
-      <div className="font-bold text-lg whitespace-normal inline-block w-full h-5">
+      <div className="inline-block w-full h-5 text-lg font-bold whitespace-normal">
         <span>{title}</span>
       </div>
-      <div className="py-4 flex flex-col relative">
+      <div className="relative flex flex-col py-4">
         {businesses?.map((b, i) => (
           <Business key={i} {...b} />
         ))}

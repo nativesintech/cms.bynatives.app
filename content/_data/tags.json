@@ -7,6 +7,10 @@
     {
       "name": "restaurant",
       "description": "Any type of business that serves food, including a food truck."
+    },
+    {
+      "name": "clothing",
+      "description": "For businesses that sell clothing"
     }
   ]
 }
