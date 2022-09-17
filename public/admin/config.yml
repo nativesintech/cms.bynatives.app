@@ -59,7 +59,6 @@ collections:
         collection: "metadata"
         file: "tags"
         widget: "relation"
-        collection: "metadata"
         display_fields: "tags.*.name"
         value_field: "tags.*.name"
         search_fields: ["tags.*.name"]
