@@ -9,7 +9,11 @@ export default function Business({
   tags,
   thumbnail,
 }) {
-  const imgSrc = thumbnail.startsWith("http") ? thumbnail : `/${thumbnail}`
+  const imgSrc = thumbnail
+    ? thumbnail.startsWith("http")
+      ? thumbnail
+      : `/${thumbnail}`
+    : "/logo_black_white.svg"
 
   return (
     <Card>
