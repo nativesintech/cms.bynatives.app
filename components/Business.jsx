@@ -10,6 +10,7 @@ export default function Business({
   thumbnail,
 }) {
   const imgSrc = thumbnail.startsWith("http") ? thumbnail : `/${thumbnail}`
+
   return (
     <Card>
       <div className="flex flex-row flex-shrink overflow-hidden border-b rounded-t border-slate-600 lg:border-0 lg:rounded-none lg:border-r lg:w-1/2 h-80">
