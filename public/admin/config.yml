@@ -59,7 +59,7 @@ collections:
         collection: "metadata"
         file: "tags"
         widget: "relation"
-        display_fields: "tags.*.name"
+        display_fields: ["tags.*.name"]
         value_field: "tags.*.name"
         search_fields: ["tags.*.name"]
         multiple: true
