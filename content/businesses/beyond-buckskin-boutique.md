@@ -11,7 +11,9 @@ links:
     name: Website
 address: North Dakota
 languages:
-  - languages: ojibwa
+  - ojibwa
 tags:
-  - tags: clothing
+  - clothing
 ---
+
+{name}
