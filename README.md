@@ -18,22 +18,23 @@
 
 <div align="center">
 
-  ### Quick Links
-  <a
+### Quick Links
+
+<a
     href="https://bynatives-cms.netlify.app/"
     rel="noreferrer noopener">
-      <img src="https://img.shields.io/badge/WEBSITE-gray?style=for-the-badge" />
-  </a>
-  <a
+<img src="https://img.shields.io/badge/WEBSITE-gray?style=for-the-badge" />
+</a>
+<a
     href="https://bynatives-cms.netlify.app/admin"
     rel="noreferrer noopener">
-      <img src="https://img.shields.io/badge/ADD BUSINESS-gray?style=for-the-badge" />
-  </a>
-  <a
+<img src="https://img.shields.io/badge/ADD BUSINESS-gray?style=for-the-badge" />
+</a>
+<a
     href="https://bynatives-cms.netlify.app/about"
     rel="noreferrer noopener">
-      <img src="https://img.shields.io/badge/FAQs-gray?style=for-the-badge" />
-  </a>
+<img src="https://img.shields.io/badge/FAQs-gray?style=for-the-badge" />
+</a>
 
 </div>
 
@@ -42,8 +43,8 @@
 <div align="center">
 
 **[Purpose](https://github.com/nativesintech/cms.bynatives.app#-purpose) ·
-  [Tech Stack](https://github.com/nativesintech/cms.bynatives.app#-tech-stack) ·
-  [Contributing](https://github.com/nativesintech/cms.bynatives.app#-contributing)**
+[Tech Stack](https://github.com/nativesintech/cms.bynatives.app#-tech-stack) ·
+[Contributing](https://github.com/nativesintech/cms.bynatives.app#-contributing)**
 
 </div>
 

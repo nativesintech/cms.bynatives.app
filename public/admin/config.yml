@@ -27,6 +27,7 @@ collections:
       - { label: "Name", name: "name", widget: "string" }
       - label: "Featured Image"
         name: "thumbnail"
+        required: false
         widget: "image"
         choose_url: true
         media_library:

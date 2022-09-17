@@ -1,6 +1,6 @@
-import matter from 'gray-matter'
-import fs from 'fs'
-import ReactMarkdown from 'react-markdown'
+import matter from "gray-matter"
+import fs from "fs"
+import ReactMarkdown from "react-markdown"
 
 export default function Page({ slug, frontmatter, content }) {
   return (
@@ -13,12 +13,12 @@ export default function Page({ slug, frontmatter, content }) {
 
 export async function getStaticProps({ ...ctx }) {
   const { slug } = ctx.params
-  const text = fs.readFileSync(`./content/pages/${slug}.md`, 'utf-8')
+  const text = fs.readFileSync(`./content/pages/${slug}.md`, "utf-8")
 
   let { data: frontmatter, content } = matter(text)
   frontmatter = JSON.parse(JSON.stringify(frontmatter))
   return {
-    props: { slug, frontmatter, content }
+    props: { slug, frontmatter, content },
   }
 }
 
@@ -26,12 +26,12 @@ export async function getStaticPaths() {
   const blogSlugs = ((context) => {
     const keys = context.keys()
     const data = keys.map((key, index) => {
-      let slug = key.replace(/^.*[\\\/]/, '').slice(0, -3)
+      let slug = key.replace(/^.*[\\\/]/, "").slice(0, -3)
 
       return slug
     })
     return data
-  })(require.context('../content/pages/', true, /\.md$/))
+  })(require.context("../content/pages/", true, /\.md$/))
 
   const paths = blogSlugs.map((slug) => `/${slug}`)
 

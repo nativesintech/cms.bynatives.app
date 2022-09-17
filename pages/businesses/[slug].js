@@ -1,11 +1,11 @@
-import Head from 'next/head'
-import { NextRequest } from 'next/server'
+import Head from "next/head"
+import { NextRequest } from "next/server"
 
-import { Component } from 'react'
+import { Component } from "react"
 
-import Business from '../../components/Business'
+import Business from "../../components/Business"
 
-export default function BusinessPage( props ) {
+export default function BusinessPage(props) {
   return (
     <>
       <Head>
@@ -25,7 +25,7 @@ export async function getStaticProps({ ...ctx }) {
   return {
     props: {
       slug,
-      ...attributes
+      ...attributes,
       // frontmatter: data.data,
       // markdownBody: data.content,
     },
@@ -36,12 +36,12 @@ export async function getStaticPaths() {
   const blogSlugs = ((context) => {
     const keys = context.keys()
     const data = keys.map((key, index) => {
-      let slug = key.replace(/^.*[\\\/]/, '').slice(0, -3)
+      let slug = key.replace(/^.*[\\\/]/, "").slice(0, -3)
 
       return slug
     })
     return data
-  })(require.context('../../content/businesses', true, /\.md$/))
+  })(require.context("../../content/businesses", true, /\.md$/))
 
   const paths = blogSlugs.map((slug) => `/businesses/${slug}`)
 

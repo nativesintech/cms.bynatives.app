@@ -1,4 +1,4 @@
-@import url('https://rsms.me/inter/inter.css');
+@import url("https://rsms.me/inter/inter.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -29,26 +29,27 @@ p {
 }
 
 .button-knockout {
-  border-width:1px;
-  padding-left:1rem;
-  padding-right:1rem;
-  height:100%;
-  --bg-opacity:1;
-  background-color:#fff;
-  background-color:rgba(255,255,255,var(--bg-opacity));
-  --border-opacity:1;
-  border-color:#1a202c;
-  border-color:rgba(26,32,44,var(--border-opacity));
-  -webkit-transition-property:background-color,border-color,color,fill,stroke;
-  transition-property:background-color,border-color,color,fill,stroke;
-  -webkit-transition-duration:.3s;
-  transition-duration:.3s
+  border-width: 1px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 100%;
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  --border-opacity: 1;
+  border-color: #1a202c;
+  border-color: rgba(26, 32, 44, var(--border-opacity));
+  -webkit-transition-property: background-color, border-color, color, fill,
+    stroke;
+  transition-property: background-color, border-color, color, fill, stroke;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .button-knockout.selected,
 .button-knockout:hover {
-  --bg-opacity:1;
-  background-color:#1a202c;
-  background-color:rgba(26,32,44,var(--bg-opacity));
-  color:#fff
+  --bg-opacity: 1;
+  background-color: #1a202c;
+  background-color: rgba(26, 32, 44, var(--bg-opacity));
+  color: #fff;
 }
