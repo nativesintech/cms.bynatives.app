@@ -7,21 +7,23 @@ import Script from "next/script"
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps }) {
   return (
-    <div className="max-w-screen-sm lg:max-w-screen-lg mx-auto px-4 antialiased">
+    <div className="max-w-screen-sm px-4 mx-auto antialiased lg:max-w-screen-lg">
       <Head>
         <Script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
       </Head>
       <header>
-        <nav className="flex py-6 bg-white items-center justify-between">
+        <nav className="flex items-center justify-between py-6 bg-white">
           <div className="flex items-center">
-            <img
-              src="https://businesses.bynatives.app/img/logo.e1e95d4b.svg"
-              alt="Logo"
-              className="flex-shrink-0 h-12 w-12"
-            />
-            <h1 className="hidden md:block text-xl text-gray-900 font-bold ml-3">
-              Native Owned Businesses
-            </h1>
+            <a href="/">
+              <img
+                src="/logo_black_white.svg"
+                alt="Logo"
+                className="flex-shrink-0 w-12 h-12"
+              />
+              <h1 className="hidden ml-3 text-xl font-bold text-gray-900 md:block">
+                Native Owned Businesses
+              </h1>
+            </a>
           </div>
           <div className="space-x-2">
             <a href="/about" className="">
