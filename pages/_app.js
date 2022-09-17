@@ -13,18 +13,16 @@ export default function MyApp({ Component, pageProps }) {
       </Head>
       <header>
         <nav className="flex items-center justify-between py-6 bg-white">
-          <div className="flex items-center">
-            <a href="/">
-              <img
-                src="/logo_black_white.svg"
-                alt="Logo"
-                className="flex-shrink-0 w-12 h-12"
-              />
-              <h1 className="hidden ml-3 text-xl font-bold text-gray-900 md:block">
-                Native Owned Businesses
-              </h1>
-            </a>
-          </div>
+          <a className="flex items-center" href="/">
+            <img
+              src="/logo_black_white.svg"
+              alt="Logo"
+              className="flex-shrink-0 w-12 h-12"
+            />
+            <h1 className="hidden ml-3 text-xl font-bold text-gray-900 md:block">
+              Native Owned Businesses
+            </h1>
+          </a>
           <div className="space-x-2">
             <a href="/about" className="">
               About
