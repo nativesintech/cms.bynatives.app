@@ -11,6 +11,10 @@
     {
       "name": "clothing",
       "description": "For businesses that sell clothing"
+    },
+    {
+      "name": "food",
+      "description": "Businesses that sell food products but not a location where you can eat food"
     }
   ]
 }
