@@ -13,7 +13,7 @@ links:
     name: Website
 address: Callaway, MN
 languages:
-  - languages: ojibwa
+  - ojibwa
 tags:
-  - tags: nonprofit
+  - nonprofit
 ---
