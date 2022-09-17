@@ -43,8 +43,9 @@ export default function Business({
         </div>
         <div className="flex flex-col lg:flex-row lg:items-end">
           <div className="flex flex-row flex-grow mb-6 text-sm align-baseline lg:mb-0">
-            {tags?.map((tag) => (
+            {tags?.map((tag, i) => (
               <span
+                key={i}
                 className={`box-border whitespace-no-wrap text-gray-500 pr-2 flex-end tag-${tag.name}`}
               >
                 {tag}
@@ -52,8 +53,9 @@ export default function Business({
             ))}
           </div>
           <div className="flex flex-row gap-3 text-sm align-baseline flex-end">
-            {links?.map((link) => (
+            {links?.map((link, i) => (
               <a
+                key={i}
                 href={link.url}
                 title={link.url}
                 target="_blank"

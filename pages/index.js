@@ -1,4 +1,4 @@
-import { attributes, react as HomeContent } from "../content/pages/home.md"
+import { attributes } from "../content/pages/home.md"
 import Business from "../components/Business"
 
 export async function getStaticProps({ ...ctx }) {
@@ -30,8 +30,8 @@ export default function Home({ businesses }) {
         <span>{title}</span>
       </div>
       <div className="relative flex flex-col py-4">
-        {businesses?.map((b) => (
-          <Business {...b} />
+        {businesses?.map((b, i) => (
+          <Business key={i} {...b} />
         ))}
       </div>
     </article>
