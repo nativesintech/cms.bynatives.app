@@ -38,10 +38,11 @@ collections:
           label: "Links",
           name: "links",
           widget: "list",
-          fields: [
-            { label: "Name", name: "name", widget: "string" },
-            { label: "URL", name: "url", widget: "string" }
-          ]
+          fields:
+            [
+              { label: "Name", name: "name", widget: "string" },
+              { label: "URL", name: "url", widget: "string" },
+            ],
         }
       - { label: "Address", name: "address", widget: "text" }
       - label: "Languages"
@@ -52,10 +53,10 @@ collections:
             name: "languages"
             widget: "relation"
             collection: "metadata"
-            file: "languages"
             search_fields: ["languages.*.slug", "languages.*.name"]
             display_fields: ["languages.*.name"]
             value_field: "languages.*.slug"
+            multiple: true
       - label: "Tags"
         name: "tags"
         widget: "list"
@@ -64,10 +65,9 @@ collections:
             name: "tags"
             widget: "relation"
             collection: "metadata"
-            file: "tags"
             search_fields: ["tags.*.name"]
-            display_fields: ["tags.*.name"]
             value_field: "tags.*.name"
+            multiple: true
       # - { label: "Location", name: "location", widget: "map", type: "location" }
   - name: "metadata"
     label: "Metadata"
