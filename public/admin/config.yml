@@ -40,7 +40,7 @@ collections:
           widget: "text",
           pattern:
             [
-              ".{10,500}",
+              "^.{10,500}$/gmi",
               "Description must be a minimum of 10 characters and a max of 500.",
             ],
         }
