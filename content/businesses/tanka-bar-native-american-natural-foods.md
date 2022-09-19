@@ -7,11 +7,9 @@ description: We are focused on creating a family of nationally branded
   American way of wellness that feeds mind, body, and spirit. Native American
   Natural Foods provides a category of natural healthy choices in the
   marketplace that did not exist. Our Tanka product line features a variety of
-  flavors with Tanka Bars, Tanka Bites, Tanka Sticks and Tanka Warrior Bars. We
-  are the maker of the only nationally distributed Native American packaged
-  snack brand in the natural foods industry. Native American Natural Foods is a
-  certified Minority-Owned Business, a certified Native American-Owned Business,
-  and a certified B Corporation. Test
+  flavors with Tanka Bars, Tanka Bites, Tanka Sticks and Tanka Warrior Bars.
+  Native American Natural Foods is a certified Minority-Owned Business, a
+  certified Native American-Owned Business, and a certified B Corporation.
 links:
   - name: Website
     url: https://tankabar.com/
