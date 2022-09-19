@@ -10,4 +10,6 @@ links:
   - name: Website
     url: https://www.mahotatextiles.com/
 address: Sulphur, OK
+tags:
+  - textiles
 ---
