@@ -1,5 +1,4 @@
 import { Card } from "./Card"
-import ReactMarkdown from "react-markdown"
 
 export default function Business({
   name,
@@ -43,8 +42,8 @@ export default function Business({
             {name}
           </a>
         </header>
-        <div className="flex-grow mb-6 overflow-hidden text-sm max-h-12 lg:max-h-40 lg:mb-0">
-          {description}
+        <div className="h-30 lg:h-40">
+          <p class="text-sm line-clamp-3 lg:line-clamp-6">{description}</p>
         </div>
         <div className="flex flex-row items-center pt-4 mt-auto">
           <div className="flex flex-row flex-grow text-sm lg:mb-0">
