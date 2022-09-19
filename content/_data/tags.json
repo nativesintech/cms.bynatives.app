@@ -15,6 +15,10 @@
     {
       "name": "food",
       "description": "Businesses that sell food products but not a location where you can eat food"
+    },
+    {
+      "name": "Textiles",
+      "description": "For businesses that sell textiles like quilts and blankets"
     }
   ]
 }
