@@ -43,7 +43,7 @@ export default function Business({
           </a>
         </header>
         <div className="h-30 lg:h-40">
-          <p class="text-sm line-clamp-3 lg:line-clamp-6">{description}</p>
+          <p className="text-sm line-clamp-3 lg:line-clamp-8">{description}</p>
         </div>
         <div className="flex flex-row items-center pt-4 mt-auto">
           <div className="flex flex-row flex-grow text-sm lg:mb-0">
