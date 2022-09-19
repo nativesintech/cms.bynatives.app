@@ -38,7 +38,11 @@ collections:
           label: "Description",
           name: "description",
           widget: "text",
-          pattern: [".{0,500}", "Max of 500 characters"],
+          pattern:
+            [
+              ".{10,500}",
+              "Description must be a minimum of 10 characters and a max of 500.",
+            ],
         }
       - {
           label: "Links",
