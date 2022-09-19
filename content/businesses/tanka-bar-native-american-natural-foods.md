@@ -1,5 +1,5 @@
 ---
-name: Tanka Bar (Native American Natural Foods)
+name: Tanka Bar
 thumbnail: https://cdn.shopify.com/s/files/1/0115/8745/2986/files/tanka-bar-logo_280x@2x.png?v=1604806938
 date: 2022-09-19T00:52:12.254Z
 description: >-
