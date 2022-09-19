@@ -1,4 +1,5 @@
 import { Card } from "./Card"
+import ReactMarkdown from "react-markdown"
 
 export default function Business({
   name,
@@ -17,9 +18,9 @@ export default function Business({
 
   return (
     <Card>
-      <div className="flex flex-row flex-shrink overflow-hidden border-b rounded-t border-slate-600 lg:border-0 lg:rounded-none lg:border-r lg:w-1/2 h-80">
+      <div className="flex flex-row flex-shrink overflow-hidden border-b rounded-t border-slate-600 lg:border-0 lg:rounded-none lg:border-r lg:w-1/2">
         <img
-          className="self-center object-cover w-full h-full max-w-full"
+          className="self-center object-scale-down w-full h-full max-w-full max-h-60 lg:max-h-80 lg:object-contain"
           src={imgSrc}
         />
       </div>
@@ -42,21 +43,21 @@ export default function Business({
             {name}
           </a>
         </header>
-        <div className="flex-grow mb-6 text-sm lg:mb-0">
-          <div>{description}</div>
+        <div className="flex-grow mb-6 overflow-hidden text-sm max-h-12 lg:max-h-40 lg:mb-0">
+          {description}
         </div>
-        <div className="flex flex-col lg:flex-row lg:items-end">
-          <div className="flex flex-row flex-grow mb-6 text-sm align-baseline lg:mb-0">
+        <div className="flex flex-row items-center pt-4 mt-auto">
+          <div className="flex flex-row flex-grow text-sm lg:mb-0">
             {tags?.map((tag, i) => (
               <span
                 key={i}
-                className={`box-border whitespace-no-wrap text-gray-500 pr-2 flex-end tag-${tag.name}`}
+                className={`box-border whitespace-no-wrap text-gray-500 pr-2 flex-end tag-${tag}`}
               >
                 {tag}
               </span>
             ))}
           </div>
-          <div className="flex flex-row gap-3 text-sm align-baseline flex-end">
+          <div className="flex flex-row text-sm flex-end">
             {links?.map((link, i) => (
               <a
                 key={i}
