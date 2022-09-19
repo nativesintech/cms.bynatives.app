@@ -38,11 +38,7 @@ collections:
           label: "Description",
           name: "description",
           widget: "text",
-          pattern:
-            [
-              "^.{10,500}$/gmi",
-              "Description must be a minimum of 10 characters and a max of 500.",
-            ],
+          hint: "A max of around 500 characters will be shown",
         }
       - {
           label: "Links",
