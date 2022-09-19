@@ -34,7 +34,12 @@ collections:
           config:
             multiple: true
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "text" }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "text",
+          pattern: [".{0,500}", "Max of 500 characters"],
+        }
       - {
           label: "Links",
           name: "links",
