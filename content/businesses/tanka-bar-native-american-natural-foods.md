@@ -11,7 +11,7 @@ description: We are focused on creating a family of nationally branded
   are the maker of the only nationally distributed Native American packaged
   snack brand in the natural foods industry. Native American Natural Foods is a
   certified Minority-Owned Business, a certified Native American-Owned Business,
-  and a certified B Corporation
+  and a certified B Corporation. Test
 links:
   - name: Website
     url: https://tankabar.com/
