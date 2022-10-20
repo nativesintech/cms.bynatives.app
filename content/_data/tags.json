@@ -19,6 +19,14 @@
     {
       "name": "textiles",
       "description": "For businesses that sell textiles like quilts and blankets"
+    },
+    {
+      "name": "beadwork",
+      "description": "business that sells beadwork"
+    },
+    {
+      "name": "beading supplies",
+      "description": "business that sells supplies for beadwork"
     }
   ]
 }
