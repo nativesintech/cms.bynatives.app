@@ -8,4 +8,6 @@ links:
     name: Powwow Bling
 address: Oklahoma
 languages: []
+tags:
+  - beading supplies
 ---
