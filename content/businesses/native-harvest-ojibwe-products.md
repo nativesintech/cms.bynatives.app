@@ -11,7 +11,7 @@ description: We work to continue, revive, and protect our native seeds, heritage
 links:
   - url: https://nativeharvest.com/
     name: Website
-address: Callaway, MN
+address: 607 Main Ave Callaway, MN 56521
 languages:
   - ojibwa
 tags:

@@ -9,7 +9,7 @@ description: Based out of North Dakota, Beyond Buckskin is dedicated to
 links:
   - url: https://shop.beyondbuckskin.com/
     name: Website
-address: North Dakota
+address: Turtle Mountain Shopping Center Belcourt, ND 58316
 languages:
   - ojibwa
 tags:

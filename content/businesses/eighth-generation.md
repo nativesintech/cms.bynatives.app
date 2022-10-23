@@ -11,7 +11,7 @@ description: Eighth Generation provides a strong, ethical alternative to
 links:
   - name: Website
     url: https://eighthgeneration.com
-address: Seattle
+address: 93 Pike Street Suite 103 Seattle, Washington  98101
 languages:
   - lhechalosem-nooksack
 tags:
