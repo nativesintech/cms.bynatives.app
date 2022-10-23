@@ -20,4 +20,23 @@ const pull_languages = async () => {
   fs.writeFileSync("./content/_data/languages.json", JSON.stringify(out))
 }
 
+const urlTerritories =
+  "https://native-land.ca/wp-content/themes/Native-Land-Theme/files/indigenousTerritories.json"
+
+const pullTerritories = async () => {
+  const { data } = await axios.get(urlTerritories)
+
+  const territories = data.features.map(({ properties }) => ({
+    name: properties.Name,
+    slug: properties.Slug,
+    description: properties.description,
+    color: properties.color,
+  }))
+
+  const out = { territories }
+
+  fs.writeFileSync("./content/_data/territories.json", JSON.stringify(out))
+}
+
 pull_languages()
+pullTerritories()
