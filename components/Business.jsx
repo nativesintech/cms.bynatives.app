@@ -1,4 +1,6 @@
 import { Card } from "./Card"
+import jsonLang from "../content/_data/languages.json"
+import jsonTerr from "../content/_data/territories.json"
 
 export default function Business({
   name,
@@ -30,10 +32,19 @@ export default function Business({
           <div className="flex flex-row justify-between w-full mb-1 text-sm text-slate-800">
             <div className="flex justify-between flex-grow w-100">
               <div className="flex space-x-4">
-                {territories?.map((t) => (
-                  <span>{t}</span>
-                ))}
-                {!territories && languages?.map((l) => <span>{l}</span>)}
+                {territories?.map((t) => {
+                  const terr = jsonTerr.territories.find(
+                    (terr) => terr.slug === t
+                  )
+                  return <span className="text-gray-500">{terr?.name}</span>
+                })}
+                {!territories &&
+                  languages?.map((l) => {
+                    const lang = jsonLang.languages.find(
+                      (lang) => lang.slug === l
+                    )
+                    return <span>{lang?.name}</span>
+                  })}
               </div>
             </div>
             <div className="location">
