@@ -13,7 +13,7 @@ description: We are focused on creating a family of nationally branded
 links:
   - name: Website
     url: https://tankabar.com/
-address: PO Box 287 Kyle, SD 57752
+address: Po Box 287 Kyle, SD 57752
 languages:
   - lakotayapi
 tags:
