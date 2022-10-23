@@ -12,5 +12,5 @@ description: The story of Sister Sky begins with two sisters who grew up in a
 links:
   - name: Website
     url: https://sistersky.com/
-address: 55 E. Lincoln Rd. Suite 102-103 Spokane, WA.  99208
+address: 55 E. Lincoln Rd. Suite 102-103 Spokane, WA 99208
 ---

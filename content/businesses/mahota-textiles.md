@@ -9,7 +9,7 @@ description: Mahota Textiles is the first textile company envisioned and owned
 links:
   - name: Website
     url: https://www.mahotatextiles.com/
-address: 309 West Muskogee Ave Sulphur, OK, 73086, USA
+address: 309 West Muskogee Ave Sulphur, OK 73086
 tags:
   - textiles
 ---

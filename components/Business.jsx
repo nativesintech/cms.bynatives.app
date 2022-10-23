@@ -1,6 +1,7 @@
 import { Card } from "./Card"
 import jsonLang from "../content/_data/languages.json"
 import jsonTerr from "../content/_data/territories.json"
+import abbr from "state-abbreviations"
 
 export default function Business({
   name,
@@ -18,6 +19,11 @@ export default function Business({
       ? thumbnail
       : `/${thumbnail}`
     : "/logo_black_white.svg"
+
+  const state =
+    address.match(/([A-Z]{2})/) !== null
+      ? abbr[address.match(/([A-Z]{2})/)[0]]
+      : undefined
 
   return (
     <Card>
@@ -50,7 +56,7 @@ export default function Business({
             <div className="location">
               {address?.trim() !== "" && (
                 <a href={`https://www.google.com/maps/place/${address}`}>
-                  {address}
+                  {state}
                 </a>
               )}
             </div>

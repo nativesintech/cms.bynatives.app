@@ -6,7 +6,7 @@ description: Beading Supplies
 links:
   - url: https://pwbling.com/
     name: Powwow Bling
-address: Oklahoma
+address: OK
 languages: []
 tags:
   - beading supplies

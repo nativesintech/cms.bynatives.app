@@ -10,7 +10,7 @@ description: Our mission is to provide the highest quality Kombucha tea that
 links:
   - name: Website
     url: https://www.morninglightkombucha.com/
-address: Kansas
+address: KS
 languages:
   - terena-2
 tags:
