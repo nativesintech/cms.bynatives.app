@@ -30,9 +30,10 @@ export default function Business({
           <div className="flex flex-row justify-between w-full mb-1 text-sm text-slate-800">
             <div className="flex justify-between flex-grow w-100">
               <div className="flex space-x-4">
-                {territories?.map((t) => <span>{t}</span>)
-                  ? languages?.map((l) => <span>{l}</span>)
-                  : undefined}
+                {territories?.map((t) => (
+                  <span>{t}</span>
+                ))}
+                {!territories && languages?.map((l) => <span>{l}</span>)}
               </div>
             </div>
             <div className="location">
