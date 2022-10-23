@@ -30,19 +30,17 @@ export default function Business({
           <div className="flex flex-row justify-between w-full mb-1 text-sm text-slate-800">
             <div className="flex justify-between flex-grow w-100">
               <div className="flex space-x-4">
-                {territories?.length() > 0
-                  ? territories.map((t) => <span>{t}</span>)
-                  : languages?.length() > 0
-                  ? languages.map((l) => <span>{l}</span>)
+                {territories?.map((t) => <span>{t}</span>)
+                  ? languages?.map((l) => <span>{l}</span>)
                   : undefined}
               </div>
             </div>
             <div className="location">
-              {address?.trim() !== "" ? (
+              {address?.trim() !== "" && (
                 <a href={`https://www.google.com/maps/place/${address}`}>
                   {address}
                 </a>
-              ) : undefined}
+              )}
             </div>
           </div>
           <a
