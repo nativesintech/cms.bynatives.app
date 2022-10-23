@@ -1,7 +1,7 @@
 import { Card } from "./Card"
 import jsonLang from "../content/_data/languages.json"
 import jsonTerr from "../content/_data/territories.json"
-import abbr from "state-abbreviations"
+import abbr from "states-abbreviations"
 
 export default function Business({
   name,
