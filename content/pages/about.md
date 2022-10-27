@@ -24,7 +24,3 @@ It depends. There are nations such as the [Independent Traditional Seminole Nati
 ### I can't find a business for x. Why don't you have it?
 
 In order to maintain the integrity of this directory we are adding business owners manually. It will take time for the spectrum of businesses to show up here.
-
-## Credits
-
-**Loading icon:** Turtle by [Ben Davis](https://thenounproject.com/search/?creator=64420&q=turtle&i=1097454) from The Noun Project. Creative Commons.
