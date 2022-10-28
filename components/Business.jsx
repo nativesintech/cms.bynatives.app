@@ -21,7 +21,7 @@ export default function Business({
     : "/logo_black_white.svg"
 
   const state =
-    address.match(/([A-Z]{2})/) !== null
+    address && address.match(/([A-Z]{2})/) !== null
       ? abbr[address.match(/([A-Z]{2})/)[0]]
       : undefined
 
