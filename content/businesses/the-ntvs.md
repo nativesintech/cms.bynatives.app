@@ -14,7 +14,7 @@ description: Our mission is to teach the youth the importance of embracing
   create custom apparel, logos, websites, and more.
 links:
   - url: https://www.thentvs.com/
-    name: The NTVS
+    name: Website
 tags:
   - clothing
 ---
