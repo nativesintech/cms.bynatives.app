@@ -20,4 +20,4 @@ We are actively seeking volunteers who are interested in building up our directo
 
 ### Code Contributions
 
-The leads on this project are [@nicksahler](https://github.com/nicksahler) and [@arecvlohe](https://github.com/arecvlohe). If you are interested in making a code contribution then open an issue in this project requesting how you can help.
+The leads on this project are [@nicksahler](https://github.com/nicksahler), [@arecvlohe](https://github.com/arecvlohe), and [@tarzioo](https://github.com/tarzioo). If you are interested in making a code contribution then open an issue in this project requesting how you can help.
