@@ -27,6 +27,10 @@
     {
       "name": "beading supplies",
       "description": "business that sells supplies for beadwork"
+    },
+    {
+      "description": "business that sells jewelry",
+      "name": "jewelry"
     }
   ]
 }
