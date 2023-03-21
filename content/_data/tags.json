@@ -31,6 +31,18 @@
     {
       "description": "business that sells jewelry",
       "name": "jewelry"
+    },
+    {
+      "name": "communications",
+      "description": "business that work in communications"
+    },
+    {
+      "name": "press",
+      "description": "business that work in press"
+    },
+    {
+      "name": "pr",
+      "description": "business that work in public relations"
     }
   ]
 }
