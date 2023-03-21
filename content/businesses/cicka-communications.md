@@ -1,5 +1,5 @@
 ---
-name: Cicka Communications
+name: Cic'ka Communications
 thumbnail: img/cicka.png
 date: 2022-11-05T23:18:55.570Z
 description: >-
