@@ -6,7 +6,7 @@ description: >-
   Journalism & Media Production
 
 
-  Cic'ka Communications is a Native owned and operated boutique communications firm specializing in journalism with grit and media production with conscience.
+  Cic'ka Communications is a Native owned and operated boutique communications firm specializing in journalism with grit and media production with conscience. We work with tribes and non-profits that serve Indigenous Peoples.
 links:
   - name: website
     url: https://linktr.ee/CickaComms
